@@ -1,0 +1,69 @@
+html {
+    font-family: 'IranSans';
+}
+#title{
+    text-align: center;
+    font-size: 4em;
+    padding: 0.5em;
+}
+.main {
+    text-align: center;
+}
+.main button {
+    font-family: 'IranSans';
+    padding: 1.5em;
+    font-size: 2vw;
+    border-radius: 2em;
+    transition: 0.5s;
+}
+.main button:hover {
+    background-color: rgb(116, 116, 116);
+    padding: 6vh;
+    font-size: 5em;
+    color: #fff;
+}
+.game {
+    display: none;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+}
+ul.subjectsUL {
+    display: inline-block;
+    text-align: right;
+  }
+  .game button {
+    font-family: 'IranSans';
+    padding: 1.5em;
+    font-size: 2vw;
+    border-radius: 2em;
+    transition: 0.6s;
+}
+.game button:hover {
+    background-color: rgb(116, 116, 116);
+    padding: 6vh;
+    font-size: 5em;
+    color: #fff;
+}
+#gameLTR {
+    font-family: 'IranSans';
+    padding: 0.1em;
+    font-size: 4vw;
+
+}
+#reset {
+    display: none;
+    font-family: 'IranSans';
+    text-align: center;
+    padding: 2vh;
+    font-size: 4em;
+    border-radius: 2em;
+    transition: 0.5s;
+    background-color: #cacaca
+}
+#reset:hover {
+    background-color: rgb(116, 116, 116);
+    padding: 4vh;
+    font-size: 3.5em;
+    color: #fff;
+}
